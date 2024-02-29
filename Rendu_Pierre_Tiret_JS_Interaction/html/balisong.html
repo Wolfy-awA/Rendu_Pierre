@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/common.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/balisong.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>BALISONG</h1>
+    </header>
+    <main>
+      <nav id="menu">
+        <ul>
+          <li class="menu_box"><a href="balisong.html">main</a></li>
+          <li class="menu_box"><a href="history.html">history</a></li>
+          <li class="menu_box"><a href="tricks.html">tricks</a></li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <!--<img
+          id="balisong_anatomy"
+          src="https://blogstudio.s3.amazonaws.com/squid-industries/50b9d3c14d6766e5db6a266de0e255a8.jpg"
+          alt="https://www.squidindustries.co/blogs/squid-industries-blog/balisong-anatomy"
+        />-->
+
+        <div class="swiper mon-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="https://blogstudio.s3.amazonaws.com/squid-industries/50b9d3c14d6766e5db6a266de0e255a8.jpg"
+                alt=""
+              />
+              <div class="text-slide">
+                <p class="subtitle">Discover what a balisong is made of</p>
+                <p class="title">Balisong Anatomy</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://m.media-amazon.com/images/I/51M8H7DqwfL._AC_UF1000,1000_QL80_.jpg"
+                alt=""
+              />
+              <p class="subtitle">shop</p>
+              <p class="title">Buy here</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://m.media-amazon.com/images/I/51M8H7DqwfL._AC_UF1000,1000_QL80_.jpg"
+                alt=""
+              />
+              <p class="subtitle">Axe métier</p>
+              <p class="title">créa design</p>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <p>
+          The Balisong, also known as a butterfly knife, is a unique folding
+          knife cherished for its captivating design and practical use. The
+          Balisong is more than a knife; it's a symbol of craftsmanship and
+          agility, appreciated by enthusiasts worldwide.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          scelerisque ex in sagittis venenatis. Praesent ac nunc non turpis
+          dapibus pulvinar.
+          <br />
+          Ut in lectus et enim pellentesque eleifend vel at risus. Ut id justo
+          aliquet, ultrices ante vitae, euismod erat. <br />
+          Pellentesque at nulla vitae leo imperdiet faucibus quis eget eros.
+          Suspendisse quis ultricies sem, sit amet blandit sem. <br />
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae; Donec facilisis nec quam nec ultrices. Quisque
+          luctus mi nec luctus malesuada. <br />
+        </p>
+        <p>
+          Suspendisse potenti. Nulla quis accumsan nisi. Nunc vestibulum, tellus
+          ut gravida posuere, erat mauris luctus velit, sit amet blandit odio
+          justo fermentum ante. Fusce vel lobortis mi. <br />
+          Sed elementum cursus sem vitae rutrum. Suspendisse at fermentum nisi.
+          Mauris vitae mauris sagittis, laoreet justo vitae, fringilla nibh.
+          Aliquam sit amet nibh sit amet arcu aliquet facilisis. Aliquam rutrum
+          venenatis neque vel sollicitudin. Proin a sollicitudin est, eu mattis
+          dui. Duis consectetur scelerisque cursus. Aenean molestie risus ut
+          convallis eleifend. Donec aliquam sed est eu tincidunt. Morbi aliquet
+          porta commodo. Nullam tellus justo, aliquam eu faucibus id, egestas at
+          ex. Aliquam rutrum augue ut tellus sodales, iaculis faucibus dui
+          gravida. Praesent sed tristique lorem. Quisque ultricies a nunc sed
+          commodo. Vestibulum nec placerat erat. Nunc maximus vitae magna
+          tincidunt tincidunt. Quisque condimentum rhoncus eleifend.
+        </p>
+      </section>
+      <button class="darkMode-btn">
+        <i class="fa-regular fa-moon fa-2xl active"></i>
+        <i class="fa-solid fa-moon fa-2xl"></i>
+      </button>
+    </main>
+    <div class="tab">
+      <button class="tab_button active" data-button="login">Log in</button>
+      <button class="tab_button" data-button="newsletter">News letter</button>
+    </div>
+    <div id="login" class="tab_content active">
+      <h3>Login</h3>
+      <p>test</p>
+    </div>
+
+    <div id="newsletter" class="tab_content">
+      <h3>Newsletter</h3>
+      <p>test 2</p>
+    </div>
+
+    <footer>
+      <ul>
+        <li><i class="fa-solid fa-pen"></i>Site realised by Pierre Tiret</li>
+        <li>
+          Do not try to find any contact <i class="fa-solid fa-xmark"></i>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../Js/main.js"></script>
+  </body>
+</html>

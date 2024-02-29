@@ -1,0 +1,140 @@
+:root {
+  --dark-content: #474747;
+  --light-content: #7f95ad;
+}
+
+.content {
+  margin: auto;
+  padding: 0px 10px;
+  display: block;
+  width: 95%;
+  background-color: var(--bg-content);
+  font-family: "Inter", sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+:root[data-theme="light"] {
+  --bg-content: var(--light-content);
+}
+
+:root[data-theme="dark"] {
+  --bg-content: var(--dark-content);
+}
+
+.content.dark-mode {
+  background-color: #474747;
+  color: white;
+}
+
+#menu {
+  z-index: 10;
+}
+
+.swiper {
+  max-width: 200rem;
+  height: 70rem;
+  border-radius: 0.5rem;
+}
+
+.swiper-slide img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.swiper-slide {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72;
+  color: white;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.swiper-slide .text-slide {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-75%);
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid red;
+  width: fit-content;
+  background-color: blue;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab_content {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab_content.active {
+  display: block;
+}
+
+.active {
+  display: block;
+}
+
+.darkMode-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 10;
+  padding: 10px;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.fa-solid,
+.fa-regular {
+  display: none; /* masqué par défaut */
+}
+
+.fa-regular.active,
+.fa-solid.active {
+  display: block; /* masqué par défaut */
+}
+
+.tab_button.active {
+  background-color: #f10000;
+}

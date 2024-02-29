@@ -1,0 +1,26 @@
+.content {
+  margin: auto;
+  padding: 0px 10px;
+  display: block;
+  width: 95%;
+  background-color: rgb(127, 149, 173);
+  font-family: "Inter", sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+.align {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.align > p {
+  min-width: 400px;
+  flex: 1;
+}
+
+#pic1 {
+  width: 300px;
+}

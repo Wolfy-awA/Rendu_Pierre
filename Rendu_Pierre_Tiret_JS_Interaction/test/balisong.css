@@ -1,0 +1,30 @@
+:root {
+  --light-text: #000;
+  --dark-text: #fff;
+  --dark-background: #000;
+  --light-background: #fff;
+  --pink-text: #ff00ff;
+  --pink-background: #360136;
+}
+
+:root[data-theme="dark"] {
+  --text: var(--dark-text);
+  --bg: var(--dark-background);
+}
+
+:root[data-theme="light"] {
+  --text: var(--light-text);
+  --bg: var(--light-background);
+}
+
+:root[data-theme="pink"] {
+  --text: var(--pink-text);
+  --bg: var(--pink-background);
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+
